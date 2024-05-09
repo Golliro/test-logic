@@ -1,8 +1,8 @@
-import { ApiProperty } from '@nestjs/swagger';
+import { ApiProperty } from "@nestjs/swagger";
 // import { inherits } from 'util';
 export class StringSufflingsDto {
   @ApiProperty()
-  array_string: string;
+  input_string: string;
 }
 export class CreateCatDto {
   @ApiProperty()
